@@ -1,12 +1,17 @@
 /**
 * app.js
 * Script principal de la aplicacion
+EL DE FRONTEND
+.CLICK EVENTO
+//DONE: cuando sea exitoso
+//URL DE LA ACCION
 */
 (function() {
   $(document).ready(function() {
     var base = $('base').text();
 
     $('#rightButton').click(function() {
+        alert(1);
         $.ajax({
           type: 'post',
           dataType: 'json',
